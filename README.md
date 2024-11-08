@@ -1,2 +1,3 @@
 # todo
-A todo app created in for my daily usage 📝🦀
+
+A todo application created in Rust to organize my daily tasks 📝🦀
