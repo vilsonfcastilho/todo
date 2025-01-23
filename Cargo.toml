@@ -9,6 +9,3 @@ egui = "0.29.1"
 
 [profile.release]
 panic = "abort"
-
-[package.metadata.windows]
-windows_subsystem = "windows"

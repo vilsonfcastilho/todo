@@ -94,7 +94,7 @@ impl App for TodoApp {
                     if self.tasks.iter().all(|(_, completed)| *completed) {
                         // Verify if all the tasks is completed
                         ui.vertical_centered(|ui: &mut egui::Ui| {
-                            ui.label("All tasks are completed!");
+                            ui.label("All tasks are complete!");
                         });
 
                         self.tasks.clear(); // Reset the application
